@@ -176,7 +176,8 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+"smoke": "cypress run --spec ./cypress/e2e/AddCourse.cy.js --headed"
   },
   "author": "",
   "license": "ISC",
